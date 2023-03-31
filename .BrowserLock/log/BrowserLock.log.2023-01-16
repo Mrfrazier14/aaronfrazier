@@ -1,0 +1,36 @@
+2023-01-16 21:13:38.339-0800 [BROWSERLOCKOSX] [INFO] Logging service url received from onvue: url=https://securedelivery-hs-prd-1.pearsonvue.com/SecureDeliveryService
+2023-01-16 21:13:38.347-0800 [BROWSERLOCKOSX] [INFO] Retrieved encrypted parameters from onvue: encryptedData=jYAXNprYAvGv8xX7/HaEQfz0UbZ09dEQpSUQHuebUyZ6En9WM5C1umj11GThRRCG/RHZVFC33sHT7+dFzp7RYN/sqwV+vtbYHieyB+nvc/Pv7MJol/3/eyfkSreFqN+ofMn8qBXaCYaX6Q3G5zpDpW4IsxfVR8YgsHZt23MURVt2ghe/YunobwUUY/WcB4sj6OwxpQTDz72HO1kBh1XjTLIBeFdQA9jW775UzDJYWBmHrECfAUWxAFiRejLtxCGI7bh9F44jgeNDuQ==
+2023-01-16 21:13:39.648-0800 [BROWSERLOCKOSX] [INFO] Response code received after decrypting parameter: responseCode=200
+2023-01-16 21:13:39.649-0800 [BROWSERLOCKOSX] [INFO] Parameter decryption is successfully done at SDS
+2023-01-16 21:13:39.684-0800 [BROWSERLOCKOSX] [INFO] Received the registrationId from OP: 440006168
+2023-01-16 21:13:39.685-0800 [BROWSERLOCKOSX] [INFO] Provided registrationId: 440006168
+2023-01-16 21:13:39.685-0800 [BROWSERLOCKOSX] [INFO] Browserlock is running in background with reporting mode
+2023-01-16 21:13:40.579-0800 [BROWSERLOCKOSX] [INFO] Response code received after fetching configuration :200
+2023-01-16 21:13:40.579-0800 [BROWSERLOCKOSX] [INFO] Browserlock configuration is successfully fetched from SDS
+2023-01-16 21:13:40.588-0800 [BROWSERLOCKOSX] [INFO] Stop BrowserLock on IBT security violation: stopOnIbtSecurityViolation=true
+2023-01-16 21:13:40.592-0800 [BROWSERLOCKOSX] [INFO] SDS Public key pinning configuration value is: sdsPkpConfig=true
+2023-01-16 21:13:40.593-0800 [BROWSERLOCKOSX] [INFO] Driver Public key pinning configuration value is: driverPkpConfig=true
+2023-01-16 21:13:40.619-0800 [BROWSERLOCKOSX] [INFO] BrowserLock startup: application=BrowserLockOSX, commandLine="[-LS, HTTPS://SECUREDELIVERY-HS-PRD-1.PEARSONVUE.COM/SECUREDELIVERYSERVICE, -F, FILE PATH NOT LOGGED, -R, 440006168, -BR, -U, HTTPS://HOME.PEARSONVUE.COM]", url="https://home.pearsonvue.com", loggingUrl="https://securedelivery-hs-prd-1.pearsonvue.com/SecureDeliveryService", clientCode="null", deliveryMode="op", validArgs=true
+2023-01-16 21:13:40.674-0800 [BROWSERLOCKOSX] [INFO] Shutdown file monitor started
+2023-01-16 21:13:40.678-0800 [BROWSERLOCKOSX] [INFO] VM configuration received from SDS will be applied for validation
+2023-01-16 21:13:40.679-0800 [BROWSERLOCKOSX] [INFO] VM detection value is: vmDetectConfig=true
+2023-01-16 21:13:40.679-0800 [BROWSERLOCKOSX] [INFO] Multiple monitor configuration received from SDS will be applied for validation
+2023-01-16 21:13:40.679-0800 [BROWSERLOCKOSX] [INFO] Multiple monitor detection value is: multipleMonitorDetectConfig=true
+2023-01-16 21:13:40.679-0800 [BROWSERLOCKOSX] [INFO] Minimum browserlock version required: 2201 
+2023-01-16 21:13:40.679-0800 [BROWSERLOCKOSX] [INFO] Current browserlock version: 2211.1.1 
+2023-01-16 21:13:41.068-0800 [BROWSERLOCKOSX] [INFO] Show the number of display count: displayCount=2
+2023-01-16 21:13:41.069-0800 [BROWSERLOCKOSX] [INFO] Number of display devices connected: AWT=2, Physical/Virtual=2
+2023-01-16 21:13:41.074-0800 [BROWSERLOCKOSX] [INFO] Browserlock is running with multiple monitor
+2023-01-16 21:13:41.446-0800 [BROWSERLOCKOSX] [INFO] Number of certificates extracted : 1 
+2023-01-16 21:13:41.453-0800 [BROWSERLOCKOSX] [INFO] SDS Current Public Keys Match for URL: https://securedelivery-hs-prd-1.pearsonvue.com/SecureDeliveryService/pal/bl/mac?client=null&deliveryMode=op&application=BROWSERLOCKOSX 
+2023-01-16 21:13:42.046-0800 [BROWSERLOCKOSX] [INFO] Response Code :200
+2023-01-16 21:13:42.046-0800 [BROWSERLOCKOSX] [INFO] Forensic pal is successfully fetched from SDS
+2023-01-16 21:13:42.046-0800 [BROWSERLOCKOSX] [INFO] Time taken to retrieve the PAL from SDS: palFetchingTime=964 ms
+2023-01-16 21:13:42.240-0800 [BROWSERLOCKOSX] [INFO] Fetch all the processes running on the macOS system
+2023-01-16 21:13:42.395-0800 [BROWSERLOCKOSX] [INFO] Suspend the processes when browserlock is running
+2023-01-16 21:13:42.396-0800 [BROWSERLOCKOSX] [INFO] Pausing processes: login items (general (system settings)), general (system settings), system settings, discord, terminal, sirincservice, adobe desktop service, docker desktop, textinputswitcher, creative cloud, mackeeperagent, spotlight, finder, control center, notification center, windowmanager, osduihelper, 
+2023-01-16 21:13:42.406-0800 [BROWSERLOCKOSX] [INFO] Processes present in exit file {"processes":[{"processName":"google chrome"},{"processName":"google chrome"}]}
+2023-01-16 21:13:42.412-0800 [BROWSERLOCKOSX] [INFO] Resuming processes: terminal, sirincservice, creative cloud, mackeeperagent, system settings, finder, adobe desktop service, docker desktop, notification center, discord, control center, general (system settings), spotlight, login items (general (system settings)), windowmanager, osduihelper, textinputswitcher, 
+2023-01-16 21:13:42.412-0800 [BROWSERLOCKOSX] [INFO] Stoppinging Event Listener
+2023-01-16 21:13:42.686-0800 [BROWSERLOCKOSX] [INFO] Shutdown file monitor stopped
+2023-01-16 21:13:42.700-0800 [BROWSERLOCKOSX] [INFO] BrowserLock exit: exitCode=13 

@@ -1,0 +1,310 @@
+2023-01-17 14:59:37.586-0800 [BROWSERLOCKOSX] [INFO] Logging service url received from onvue: url=https://securedelivery-hs-prd-1.pearsonvue.com/SecureDeliveryService
+2023-01-17 14:59:37.593-0800 [BROWSERLOCKOSX] [INFO] Retrieved encrypted parameters from onvue: encryptedData=yC/Sr32lKvaTJMpqo4+NKhFaspIPp4P8sDoZn85yBXMwd0qkZwgXBeGBqpNWi35uw0H5dRZA8vZSFcwzbz0hc63QrgGSxAJAOmpex7J5rvSNu028eBomxMJ9GoWRw7h90Diwg0ljmmbleg409K/5MIr1CHijLp6hOc3W5HP8KTpyHnMEV/71hZ07ZoiBfQ2FuLUzAvbFqUFegf47tAYLDCPsJmpANbLV/46KU/expTll1QUhHia5g0BiWAWKwfhysLcFZzNWl0gmGA==
+2023-01-17 14:59:39.032-0800 [BROWSERLOCKOSX] [INFO] Response code received after decrypting parameter: responseCode=200
+2023-01-17 14:59:39.033-0800 [BROWSERLOCKOSX] [INFO] Parameter decryption is successfully done at SDS
+2023-01-17 14:59:39.071-0800 [BROWSERLOCKOSX] [INFO] Received the registrationId from OP: 440006168
+2023-01-17 14:59:39.071-0800 [BROWSERLOCKOSX] [INFO] Provided registrationId: 440006168
+2023-01-17 14:59:39.071-0800 [BROWSERLOCKOSX] [INFO] Browserlock is running in background with reporting mode
+2023-01-17 14:59:39.579-0800 [BROWSERLOCKOSX] [INFO] Response code received after fetching configuration :200
+2023-01-17 14:59:39.580-0800 [BROWSERLOCKOSX] [INFO] Browserlock configuration is successfully fetched from SDS
+2023-01-17 14:59:39.585-0800 [BROWSERLOCKOSX] [INFO] Stop BrowserLock on IBT security violation: stopOnIbtSecurityViolation=true
+2023-01-17 14:59:39.585-0800 [BROWSERLOCKOSX] [INFO] SDS Public key pinning configuration value is: sdsPkpConfig=true
+2023-01-17 14:59:39.585-0800 [BROWSERLOCKOSX] [INFO] Driver Public key pinning configuration value is: driverPkpConfig=true
+2023-01-17 14:59:39.610-0800 [BROWSERLOCKOSX] [INFO] BrowserLock startup: application=BrowserLockOSX, commandLine="[-LS, HTTPS://SECUREDELIVERY-HS-PRD-1.PEARSONVUE.COM/SECUREDELIVERYSERVICE, -F, FILE PATH NOT LOGGED, -R, 440006168, -BR, -U, HTTPS://HOME.PEARSONVUE.COM]", url="https://home.pearsonvue.com", loggingUrl="https://securedelivery-hs-prd-1.pearsonvue.com/SecureDeliveryService", clientCode="null", deliveryMode="op", validArgs=true
+2023-01-17 14:59:39.653-0800 [BROWSERLOCKOSX] [INFO] Shutdown file monitor started
+2023-01-17 14:59:39.655-0800 [BROWSERLOCKOSX] [INFO] VM configuration received from SDS will be applied for validation
+2023-01-17 14:59:39.655-0800 [BROWSERLOCKOSX] [INFO] VM detection value is: vmDetectConfig=true
+2023-01-17 14:59:39.655-0800 [BROWSERLOCKOSX] [INFO] Multiple monitor configuration received from SDS will be applied for validation
+2023-01-17 14:59:39.655-0800 [BROWSERLOCKOSX] [INFO] Multiple monitor detection value is: multipleMonitorDetectConfig=true
+2023-01-17 14:59:39.655-0800 [BROWSERLOCKOSX] [INFO] Minimum browserlock version required: 2201 
+2023-01-17 14:59:39.655-0800 [BROWSERLOCKOSX] [INFO] Current browserlock version: 2211.1.1 
+2023-01-17 14:59:40.020-0800 [BROWSERLOCKOSX] [INFO] Main screen name: null
+2023-01-17 14:59:40.022-0800 [BROWSERLOCKOSX] [INFO] Number of display devices connected: AWT=1, Physical/Virtual=1
+2023-01-17 14:59:40.388-0800 [BROWSERLOCKOSX] [INFO] Number of certificates extracted : 1 
+2023-01-17 14:59:40.391-0800 [BROWSERLOCKOSX] [INFO] SDS Current Public Keys Match for URL: https://securedelivery-hs-prd-1.pearsonvue.com/SecureDeliveryService/pal/bl/mac?client=null&deliveryMode=op&application=BROWSERLOCKOSX 
+2023-01-17 14:59:41.435-0800 [BROWSERLOCKOSX] [INFO] Response Code :200
+2023-01-17 14:59:41.436-0800 [BROWSERLOCKOSX] [INFO] Forensic pal is successfully fetched from SDS
+2023-01-17 14:59:41.436-0800 [BROWSERLOCKOSX] [INFO] Time taken to retrieve the PAL from SDS: palFetchingTime=1406 ms
+2023-01-17 14:59:41.634-0800 [BROWSERLOCKOSX] [INFO] Fetch all the processes running on the macOS system
+2023-01-17 14:59:41.757-0800 [BROWSERLOCKOSX] [INFO] Suspend the processes when browserlock is running
+2023-01-17 14:59:41.760-0800 [BROWSERLOCKOSX] [INFO] Pausing processes: sirincservice, adobe desktop service, docker desktop, creative cloud, mackeeperagent, spotlight, finder, control center, notification center, windowmanager, 
+2023-01-17 14:59:41.764-0800 [BROWSERLOCKOSX] [INFO] No terminate processes present to read in ovexit.dat file
+2023-01-17 14:59:41.777-0800 [BROWSERLOCKOSX] [INFO] Resuming processes: creative cloud, mackeeperagent, finder, adobe desktop service, docker desktop, notification center, control center, spotlight, sirincservice, windowmanager, 
+2023-01-17 14:59:41.777-0800 [BROWSERLOCKOSX] [INFO] Stoppinging Event Listener
+2023-01-17 14:59:43.671-0800 [BROWSERLOCKOSX] [INFO] Shutdown file monitor stopped
+2023-01-17 14:59:43.689-0800 [BROWSERLOCKOSX] [INFO] BrowserLock exit: exitCode=13 
+2023-01-17 14:59:51.082-0800 [BROWSERLOCKOSX] [INFO] Logging service url received from onvue: url=https://securedelivery-hs-prd-1.pearsonvue.com/SecureDeliveryService
+2023-01-17 14:59:51.084-0800 [BROWSERLOCKOSX] [INFO] Retrieved encrypted parameters from onvue: encryptedData=1kHecvJeXWfUD6RfERuQK3mAS9Qm3VwF1KNflmEDFQIKPbpmCnW/kt3czioxw4sYDrD9m+IIoi5Z0iLWTKgrQXvyIYfshqVxNK6QhgW1fZvPW8mousGSXbySsGCoBynDzHkDHhiWvzsAE5B3Th9CVjhrbn0WzvYNebD4va021FmaHX1xpx40qVyFDZWVooVUm2bIY5V+IoHbmLwRGcAStcrJ5suPwvXPnUd1P5+hXlExP9C31vVMfjVTBs0KEoQQzLwZXkI856pRC4V04Y5kIoUMMwhT3iLRiWY3IBkb/ypcbo9bOtM17A44szjhShVbJ/75fppBujZtpWG0hWwsXmq+5CoRLuLENt/QmqzI/jhS/CJIu9c+o92q9l9pQyAGf/WCpjACLs70LS1Q
+2023-01-17 14:59:52.315-0800 [BROWSERLOCKOSX] [INFO] Response code received after decrypting parameter: responseCode=200
+2023-01-17 14:59:52.318-0800 [BROWSERLOCKOSX] [INFO] Parameter decryption is successfully done at SDS
+2023-01-17 14:59:52.340-0800 [BROWSERLOCKOSX] [INFO] Received the registrationId from OP: 440006168
+2023-01-17 14:59:52.340-0800 [BROWSERLOCKOSX] [INFO] Provided registrationId: 440006168
+2023-01-17 14:59:52.340-0800 [BROWSERLOCKOSX] [INFO] BrowserLock Client code=COMPTIA 
+2023-01-17 14:59:52.829-0800 [BROWSERLOCKOSX] [INFO] Response code received after fetching configuration :200
+2023-01-17 14:59:52.830-0800 [BROWSERLOCKOSX] [INFO] Browserlock configuration is successfully fetched from SDS
+2023-01-17 14:59:52.837-0800 [BROWSERLOCKOSX] [INFO] Stop BrowserLock on IBT security violation: stopOnIbtSecurityViolation=true
+2023-01-17 14:59:52.838-0800 [BROWSERLOCKOSX] [INFO] SDS Public key pinning configuration value is: sdsPkpConfig=true
+2023-01-17 14:59:52.838-0800 [BROWSERLOCKOSX] [INFO] Driver Public key pinning configuration value is: driverPkpConfig=true
+2023-01-17 14:59:52.865-0800 [BROWSERLOCKOSX] [INFO] BrowserLock startup: application=BrowserLockOSX, commandLine="[-LS, HTTPS://SECUREDELIVERY-HS-PRD-1.PEARSONVUE.COM/SECUREDELIVERYSERVICE, -F, FILE PATH NOT LOGGED, -R, 440006168, -L, -U, HTTPS://CANDIDATELAUNCHST.ONVUE.COM/DELIVERY?SESSION_ID=23441763&ACCESS_CODE=609395806&LOCALE=EN-US&TOKEN=UNDEFINED, -C, COMPTIA]", url="https://candidatelaunchst.onvue.com/delivery?session_id=23441763&access_code=609395806&locale=en-US&token=undefined", loggingUrl="https://securedelivery-hs-prd-1.pearsonvue.com/SecureDeliveryService", clientCode="COMPTIA", deliveryMode="op", validArgs=true
+2023-01-17 14:59:52.899-0800 [BROWSERLOCKOSX] [INFO] Shutdown file monitor started
+2023-01-17 14:59:52.903-0800 [BROWSERLOCKOSX] [INFO] VM configuration received from SDS will be applied for validation
+2023-01-17 14:59:52.903-0800 [BROWSERLOCKOSX] [INFO] VM detection value is: vmDetectConfig=true
+2023-01-17 14:59:52.903-0800 [BROWSERLOCKOSX] [INFO] Multiple monitor configuration received from SDS will be applied for validation
+2023-01-17 14:59:52.903-0800 [BROWSERLOCKOSX] [INFO] Multiple monitor detection value is: multipleMonitorDetectConfig=true
+2023-01-17 14:59:52.903-0800 [BROWSERLOCKOSX] [INFO] Minimum browserlock version required: 2201 
+2023-01-17 14:59:52.903-0800 [BROWSERLOCKOSX] [INFO] Current browserlock version: 2211.1.1 
+2023-01-17 14:59:52.997-0800 [BROWSERLOCKOSX] [INFO] Main screen name: null
+2023-01-17 14:59:52.998-0800 [BROWSERLOCKOSX] [INFO] Number of display devices connected: AWT=1, Physical/Virtual=1
+2023-01-17 14:59:53.470-0800 [BROWSERLOCKOSX] [INFO] Number of certificates extracted : 1 
+2023-01-17 14:59:53.475-0800 [BROWSERLOCKOSX] [INFO] SDS Current Public Keys Match for URL: https://securedelivery-hs-prd-1.pearsonvue.com/SecureDeliveryService/pal/bl/mac?client=COMPTIA&deliveryMode=op&application=BROWSERLOCKOSX 
+2023-01-17 14:59:54.034-0800 [BROWSERLOCKOSX] [INFO] Response Code :200
+2023-01-17 14:59:54.035-0800 [BROWSERLOCKOSX] [INFO] Forensic pal is successfully fetched from SDS
+2023-01-17 14:59:54.035-0800 [BROWSERLOCKOSX] [INFO] Time taken to retrieve the PAL from SDS: palFetchingTime=1030 ms
+2023-01-17 14:59:54.216-0800 [BROWSERLOCKOSX] [INFO] Starting Event Listener
+2023-01-17 14:59:54.228-0800 [BROWSERLOCKOSX] [INFO] Fetch all the processes running on the macOS system
+2023-01-17 14:59:54.345-0800 [BROWSERLOCKOSX] [INFO] Suspend the processes when browserlock is running
+2023-01-17 14:59:54.346-0800 [BROWSERLOCKOSX] [INFO] Pausing processes: sirincservice, adobe desktop service, docker desktop, creative cloud, mackeeperagent, spotlight, finder, control center, notification center, windowmanager, 
+2023-01-17 14:59:54.347-0800 [BROWSERLOCKOSX] [INFO] Hide dock
+2023-01-17 14:59:54.352-0800 [BROWSERLOCKOSX] [INFO] Starting input handler
+2023-01-17 14:59:54.354-0800 [BROWSERLOCKOSX] [INFO] Did we load the core graphics bundle? 1
+2023-01-17 14:59:54.362-0800 [BROWSERLOCKOSX] [INFO] Setting 152 HotKeys to enabled-status: 0
+2023-01-17 14:59:56.220-0800 [BROWSERLOCKOSX] [INFO] Notification center disabled
+2023-01-17 14:59:56.220-0800 [BROWSERLOCKOSX] [INFO] Requested screen count from system: maxDisplays=1
+2023-01-17 14:59:56.221-0800 [BROWSERLOCKOSX] [INFO] Showing main display: mainDisplayId=1
+2023-01-17 14:59:56.271-0800 [BROWSERLOCKOSX] [INFO] Suspend the processes when browserlock is running
+2023-01-17 14:59:56.272-0800 [BROWSERLOCKOSX] [INFO] Pausing processes: dock, 
+2023-01-17 14:59:56.787-0800 [BROWSERLOCKOSX] [INFO] Displaying Browser Loading dialog
+2023-01-17 14:59:57.123-0800 [BROWSERLOCKOSX] [INFO] Loading view dialog is displayed successfully
+2023-01-17 14:59:57.172-0800 [BROWSERLOCKOSX] [INFO] MachineGuid=6d39fb34-35ad-5704-b421-c0a612414ba2
+2023-01-17 14:59:57.178-0800 [BROWSERLOCKOSX] [INFO] Starting the SRE application
+2023-01-17 14:59:57.178-0800 [BROWSERLOCKOSX] [INFO] SRE launcher object: ay@63cf746c
+2023-01-17 15:00:06.278-0800 [BROWSERLOCKOSX] [INFO] Suspend the processes when browserlock is running
+2023-01-17 15:00:06.279-0800 [BROWSERLOCKOSX] [INFO] Pausing processes: notification center, 
+2023-01-17 15:00:06.279-0800 [BROWSERLOCKOSX] [INFO] Main screen name: null
+2023-01-17 15:00:16.272-0800 [BROWSERLOCKOSX] [INFO] Main screen name: null
+2023-01-17 15:00:26.280-0800 [BROWSERLOCKOSX] [INFO] Main screen name: null
+2023-01-17 15:00:36.277-0800 [BROWSERLOCKOSX] [INFO] Main screen name: null
+2023-01-17 15:00:46.281-0800 [BROWSERLOCKOSX] [INFO] Main screen name: null
+2023-01-17 15:00:52.908-0800 [BROWSERLOCKOSX] [INFO] System information: name=macOS, version=13.1, arch=x86_64
+2023-01-17 15:00:52.909-0800 [BROWSERLOCKOSX] [INFO] Stats (memory in kB): processors=10, totalMemory=262144.0, freeMemory=143877.90625, memoryUsage=118266.0
+2023-01-17 15:00:52.946-0800 [BROWSERLOCKOSX] [INFO] Browserlock CPU use: process="bird", cpuPercent=73.3
+2023-01-17 15:00:52.947-0800 [BROWSERLOCKOSX] [INFO] Browserlock CPU use: process="knowledge-agent", cpuPercent=60.4
+2023-01-17 15:00:52.947-0800 [BROWSERLOCKOSX] [INFO] Browserlock CPU use: process="com.apple.Virtualization.VirtualMachine", cpuPercent=17.6
+2023-01-17 15:00:52.947-0800 [BROWSERLOCKOSX] [INFO] Browserlock CPU use: process="WindowServer", cpuPercent=9.0
+2023-01-17 15:00:52.947-0800 [BROWSERLOCKOSX] [INFO] Browserlock CPU use: process="Pearson VUE Browser Lock", cpuPercent=6.7
+2023-01-17 15:00:52.948-0800 [BROWSERLOCKOSX] [INFO] Browserlock CPU use: process="OnVUE Helper (Renderer)", cpuPercent=6.6
+2023-01-17 15:00:52.948-0800 [BROWSERLOCKOSX] [INFO] Browserlock CPU use: process="bluetoothd", cpuPercent=3.1
+2023-01-17 15:00:52.948-0800 [BROWSERLOCKOSX] [INFO] Browserlock CPU use: process="BTLEServer", cpuPercent=2.4
+2023-01-17 15:00:52.948-0800 [BROWSERLOCKOSX] [INFO] Browserlock CPU use: process="biomed", cpuPercent=1.8
+2023-01-17 15:00:52.948-0800 [BROWSERLOCKOSX] [INFO] Browserlock CPU use: process="DockHelper", cpuPercent=1.2
+2023-01-17 15:00:52.948-0800 [BROWSERLOCKOSX] [INFO] Browserlock CPU use: process="com.apple.AppleUserHIDDrivers", cpuPercent=1.2
+2023-01-17 15:00:52.948-0800 [BROWSERLOCKOSX] [INFO] Browserlock CPU use: process="Chromium Helper (GPU)", cpuPercent=0.4
+2023-01-17 15:00:52.948-0800 [BROWSERLOCKOSX] [INFO] Browserlock CPU use: process="launchd", cpuPercent=0.3
+2023-01-17 15:00:52.948-0800 [BROWSERLOCKOSX] [INFO] Browserlock CPU use: process="com.apple.hiservices-xpcservice", cpuPercent=0.3
+2023-01-17 15:00:56.345-0800 [BROWSERLOCKOSX] [INFO] Main screen name: null
+2023-01-17 15:01:06.382-0800 [BROWSERLOCKOSX] [INFO] Main screen name: null
+2023-01-17 15:01:16.332-0800 [BROWSERLOCKOSX] [INFO] Main screen name: null
+2023-01-17 15:01:26.311-0800 [BROWSERLOCKOSX] [INFO] Main screen name: null
+2023-01-17 16:18:11.942-0800 [BROWSERLOCKOSX] [INFO] Logging service url received from onvue: url=https://securedelivery-hs-prd-1.pearsonvue.com/SecureDeliveryService
+2023-01-17 16:18:11.945-0800 [BROWSERLOCKOSX] [INFO] Retrieved encrypted parameters from onvue: encryptedData=LkXkxB7tKvsBTlg6KcTfByQQ+/aniUbz8KCCezS2UNlsRbtILw4BTr1+3C0xQ9b7mBJdut+xoNrj2WtXaPmAhEG5G5tsciz4K1+Dni9Ne88JtMC8pglL12XojuGj6yaS+dGZRXKGlPVZqL37sOmWHqQkEs3ZEhfcHZJAm6Gr8XcqUEdLRXQUPVdaBDFQROcH54S2CpYCDDW2VM7bpVVAjH+IuaUg/laAzDaO5wdJI2Vk77gtaj3iDbExA+sqYyTfHD9FXfY4ZK7Nww==
+2023-01-17 16:18:13.161-0800 [BROWSERLOCKOSX] [INFO] Response code received after decrypting parameter: responseCode=200
+2023-01-17 16:18:13.162-0800 [BROWSERLOCKOSX] [INFO] Parameter decryption is successfully done at SDS
+2023-01-17 16:18:13.201-0800 [BROWSERLOCKOSX] [INFO] Received the registrationId from OP: 440006168
+2023-01-17 16:18:13.201-0800 [BROWSERLOCKOSX] [INFO] Provided registrationId: 440006168
+2023-01-17 16:18:13.201-0800 [BROWSERLOCKOSX] [INFO] Browserlock is running in background with reporting mode
+2023-01-17 16:18:13.658-0800 [BROWSERLOCKOSX] [INFO] Response code received after fetching configuration :200
+2023-01-17 16:18:13.658-0800 [BROWSERLOCKOSX] [INFO] Browserlock configuration is successfully fetched from SDS
+2023-01-17 16:18:13.663-0800 [BROWSERLOCKOSX] [INFO] Stop BrowserLock on IBT security violation: stopOnIbtSecurityViolation=true
+2023-01-17 16:18:13.663-0800 [BROWSERLOCKOSX] [INFO] SDS Public key pinning configuration value is: sdsPkpConfig=true
+2023-01-17 16:18:13.664-0800 [BROWSERLOCKOSX] [INFO] Driver Public key pinning configuration value is: driverPkpConfig=true
+2023-01-17 16:18:13.687-0800 [BROWSERLOCKOSX] [INFO] BrowserLock startup: application=BrowserLockOSX, commandLine="[-LS, HTTPS://SECUREDELIVERY-HS-PRD-1.PEARSONVUE.COM/SECUREDELIVERYSERVICE, -F, FILE PATH NOT LOGGED, -R, 440006168, -BR, -U, HTTPS://HOME.PEARSONVUE.COM]", url="https://home.pearsonvue.com", loggingUrl="https://securedelivery-hs-prd-1.pearsonvue.com/SecureDeliveryService", clientCode="null", deliveryMode="op", validArgs=true
+2023-01-17 16:18:13.727-0800 [BROWSERLOCKOSX] [INFO] Shutdown file monitor started
+2023-01-17 16:18:13.729-0800 [BROWSERLOCKOSX] [INFO] VM configuration received from SDS will be applied for validation
+2023-01-17 16:18:13.729-0800 [BROWSERLOCKOSX] [INFO] VM detection value is: vmDetectConfig=true
+2023-01-17 16:18:13.729-0800 [BROWSERLOCKOSX] [INFO] Multiple monitor configuration received from SDS will be applied for validation
+2023-01-17 16:18:13.729-0800 [BROWSERLOCKOSX] [INFO] Multiple monitor detection value is: multipleMonitorDetectConfig=true
+2023-01-17 16:18:13.730-0800 [BROWSERLOCKOSX] [INFO] Minimum browserlock version required: 2201 
+2023-01-17 16:18:13.730-0800 [BROWSERLOCKOSX] [INFO] Current browserlock version: 2211.1.1 
+2023-01-17 16:18:14.110-0800 [BROWSERLOCKOSX] [INFO] Main screen name: null
+2023-01-17 16:18:14.110-0800 [BROWSERLOCKOSX] [INFO] Number of display devices connected: AWT=1, Physical/Virtual=1
+2023-01-17 16:18:14.476-0800 [BROWSERLOCKOSX] [INFO] Number of certificates extracted : 1 
+2023-01-17 16:18:14.484-0800 [BROWSERLOCKOSX] [INFO] SDS Current Public Keys Match for URL: https://securedelivery-hs-prd-1.pearsonvue.com/SecureDeliveryService/pal/bl/mac?client=null&deliveryMode=op&application=BROWSERLOCKOSX 
+2023-01-17 16:18:15.026-0800 [BROWSERLOCKOSX] [INFO] Response Code :200
+2023-01-17 16:18:15.027-0800 [BROWSERLOCKOSX] [INFO] Forensic pal is successfully fetched from SDS
+2023-01-17 16:18:15.027-0800 [BROWSERLOCKOSX] [INFO] Time taken to retrieve the PAL from SDS: palFetchingTime=909 ms
+2023-01-17 16:18:15.211-0800 [BROWSERLOCKOSX] [INFO] Fetch all the processes running on the macOS system
+2023-01-17 16:18:15.345-0800 [BROWSERLOCKOSX] [INFO] Suspend the processes when browserlock is running
+2023-01-17 16:18:15.349-0800 [BROWSERLOCKOSX] [INFO] Pausing processes: wi‑fi (network (system settings)), vpn (network (system settings)), network (system settings), system settings, osduihelper, sirincservice, docker desktop, adobe desktop service, spotlight, textinputswitcher, creative cloud, mackeeperagent, finder, control center, notification center, windowmanager, 
+2023-01-17 16:18:15.358-0800 [BROWSERLOCKOSX] [INFO] Processes present in exit file {"processes":[{"processName":"google chrome"},{"processName":"google chrome"}]}
+2023-01-17 16:18:15.368-0800 [BROWSERLOCKOSX] [INFO] Resuming processes: system settings, finder, sirincservice, windowmanager, control center, textinputswitcher, network (system settings), wi‑fi (network (system settings)), creative cloud, osduihelper, vpn (network (system settings)), docker desktop, adobe desktop service, mackeeperagent, notification center, spotlight, 
+2023-01-17 16:18:15.368-0800 [BROWSERLOCKOSX] [INFO] Stoppinging Event Listener
+2023-01-17 16:18:15.735-0800 [BROWSERLOCKOSX] [INFO] Shutdown file monitor stopped
+2023-01-17 16:18:15.748-0800 [BROWSERLOCKOSX] [INFO] BrowserLock exit: exitCode=13 
+2023-01-17 16:19:13.293-0800 [BROWSERLOCKOSX] [INFO] Logging service url received from onvue: url=https://securedelivery-hs-prd-1.pearsonvue.com/SecureDeliveryService
+2023-01-17 16:19:13.296-0800 [BROWSERLOCKOSX] [INFO] Retrieved encrypted parameters from onvue: encryptedData=AhIfuQZm8iTIA9A3o1KvWoRS/vLvSDIAYTrNn5UahCZ4EWeABNXJho2NZThT8eDrYhMHmsV7UQvc8ykICNjiTltcGs5mnkamxChq7ehm7KpNNNqmTTsacjOx05HXNt6m1ufpoeFJ+iHTLWGSK299HgN73EEQzxgLoCKZBETsSnQiGkEFfkaLxWvhvaqnD0nzwqWKzq6i9C4qgKATbGY24qPpzrX+G0gLDAsnGXsNgO8nJLm+aHks6Hd2JoA2obwL+ZF27WJkkvV22g==
+2023-01-17 16:19:14.456-0800 [BROWSERLOCKOSX] [INFO] Response code received after decrypting parameter: responseCode=200
+2023-01-17 16:19:14.457-0800 [BROWSERLOCKOSX] [INFO] Parameter decryption is successfully done at SDS
+2023-01-17 16:19:14.474-0800 [BROWSERLOCKOSX] [INFO] Received the registrationId from OP: 440006168
+2023-01-17 16:19:14.475-0800 [BROWSERLOCKOSX] [INFO] Provided registrationId: 440006168
+2023-01-17 16:19:14.475-0800 [BROWSERLOCKOSX] [INFO] Browserlock is running in background with reporting mode
+2023-01-17 16:19:14.870-0800 [BROWSERLOCKOSX] [INFO] Response code received after fetching configuration :200
+2023-01-17 16:19:14.871-0800 [BROWSERLOCKOSX] [INFO] Browserlock configuration is successfully fetched from SDS
+2023-01-17 16:19:14.875-0800 [BROWSERLOCKOSX] [INFO] Stop BrowserLock on IBT security violation: stopOnIbtSecurityViolation=true
+2023-01-17 16:19:14.875-0800 [BROWSERLOCKOSX] [INFO] SDS Public key pinning configuration value is: sdsPkpConfig=true
+2023-01-17 16:19:14.875-0800 [BROWSERLOCKOSX] [INFO] Driver Public key pinning configuration value is: driverPkpConfig=true
+2023-01-17 16:19:14.901-0800 [BROWSERLOCKOSX] [INFO] BrowserLock startup: application=BrowserLockOSX, commandLine="[-LS, HTTPS://SECUREDELIVERY-HS-PRD-1.PEARSONVUE.COM/SECUREDELIVERYSERVICE, -F, FILE PATH NOT LOGGED, -R, 440006168, -BR, -U, HTTPS://HOME.PEARSONVUE.COM]", url="https://home.pearsonvue.com", loggingUrl="https://securedelivery-hs-prd-1.pearsonvue.com/SecureDeliveryService", clientCode="null", deliveryMode="op", validArgs=true
+2023-01-17 16:19:14.937-0800 [BROWSERLOCKOSX] [INFO] Shutdown file monitor started
+2023-01-17 16:19:14.939-0800 [BROWSERLOCKOSX] [INFO] VM configuration received from SDS will be applied for validation
+2023-01-17 16:19:14.939-0800 [BROWSERLOCKOSX] [INFO] VM detection value is: vmDetectConfig=true
+2023-01-17 16:19:14.939-0800 [BROWSERLOCKOSX] [INFO] Multiple monitor configuration received from SDS will be applied for validation
+2023-01-17 16:19:14.939-0800 [BROWSERLOCKOSX] [INFO] Multiple monitor detection value is: multipleMonitorDetectConfig=true
+2023-01-17 16:19:14.939-0800 [BROWSERLOCKOSX] [INFO] Minimum browserlock version required: 2201 
+2023-01-17 16:19:14.939-0800 [BROWSERLOCKOSX] [INFO] Current browserlock version: 2211.1.1 
+2023-01-17 16:19:15.056-0800 [BROWSERLOCKOSX] [INFO] Main screen name: null
+2023-01-17 16:19:15.056-0800 [BROWSERLOCKOSX] [INFO] Number of display devices connected: AWT=1, Physical/Virtual=1
+2023-01-17 16:19:15.403-0800 [BROWSERLOCKOSX] [INFO] Number of certificates extracted : 1 
+2023-01-17 16:19:15.408-0800 [BROWSERLOCKOSX] [INFO] SDS Current Public Keys Match for URL: https://securedelivery-hs-prd-1.pearsonvue.com/SecureDeliveryService/pal/bl/mac?client=null&deliveryMode=op&application=BROWSERLOCKOSX 
+2023-01-17 16:19:16.282-0800 [BROWSERLOCKOSX] [INFO] Response Code :200
+2023-01-17 16:19:16.282-0800 [BROWSERLOCKOSX] [INFO] Forensic pal is successfully fetched from SDS
+2023-01-17 16:19:16.282-0800 [BROWSERLOCKOSX] [INFO] Time taken to retrieve the PAL from SDS: palFetchingTime=1217 ms
+2023-01-17 16:19:16.450-0800 [BROWSERLOCKOSX] [INFO] Fetch all the processes running on the macOS system
+2023-01-17 16:19:16.542-0800 [BROWSERLOCKOSX] [INFO] Suspend the processes when browserlock is running
+2023-01-17 16:19:16.543-0800 [BROWSERLOCKOSX] [INFO] Pausing processes: osduihelper, sirincservice, docker desktop, adobe desktop service, spotlight, textinputswitcher, creative cloud, mackeeperagent, finder, control center, notification center, windowmanager, 
+2023-01-17 16:19:16.546-0800 [BROWSERLOCKOSX] [INFO] No terminate processes present to read in ovexit.dat file
+2023-01-17 16:19:16.551-0800 [BROWSERLOCKOSX] [INFO] Resuming processes: finder, sirincservice, windowmanager, control center, textinputswitcher, creative cloud, osduihelper, docker desktop, adobe desktop service, mackeeperagent, notification center, spotlight, 
+2023-01-17 16:19:16.551-0800 [BROWSERLOCKOSX] [INFO] Stoppinging Event Listener
+2023-01-17 16:19:16.941-0800 [BROWSERLOCKOSX] [INFO] Shutdown file monitor stopped
+2023-01-17 16:19:16.957-0800 [BROWSERLOCKOSX] [INFO] BrowserLock exit: exitCode=13 
+2023-01-17 16:19:22.398-0800 [BROWSERLOCKOSX] [INFO] Logging service url received from onvue: url=https://securedelivery-hs-prd-1.pearsonvue.com/SecureDeliveryService
+2023-01-17 16:19:22.400-0800 [BROWSERLOCKOSX] [INFO] Retrieved encrypted parameters from onvue: encryptedData=zEqdnbBi27iFigsHapCEZtEmuQ/AvrF7TAJfd/43ZZuDfk7BpDqSw6qFPGwUYIBI3uy/1QQ/geU60zI/irH97l5387hhtIdCHIlGkZVuKT6o1KMVh4DZWdl/m0Wk66TZ8lzkDtIUeaZnPy1JvCwhS2vr4Y0WctAMnm0C79Rxj4iVYtT7p09xTpqZ5aWOs76xNkgJwxEZC9QesP5+aO3KNQGEnuvlyU01JP+JnYN3SJF+BxofCxrhGoAO92/PDYfTfzZ8jNkWU3XcojPzjZScHeGjIH+I33a43elwE1Nd6GpC/Wi1xkOJtfdNx8Q6YnGHZj7vR9WtFDhF0tWzLmmFIVwrABGuQJm4IObcjQ3k3RgMFUwwuwc2nBAGrmq1JP7s5qNAyp9dCmw8Yjlp
+2023-01-17 16:19:23.394-0800 [BROWSERLOCKOSX] [INFO] Response code received after decrypting parameter: responseCode=200
+2023-01-17 16:19:23.395-0800 [BROWSERLOCKOSX] [INFO] Parameter decryption is successfully done at SDS
+2023-01-17 16:19:23.405-0800 [BROWSERLOCKOSX] [INFO] Received the registrationId from OP: 440006168
+2023-01-17 16:19:23.406-0800 [BROWSERLOCKOSX] [INFO] Provided registrationId: 440006168
+2023-01-17 16:19:23.406-0800 [BROWSERLOCKOSX] [INFO] BrowserLock Client code=COMPTIA 
+2023-01-17 16:19:24.059-0800 [BROWSERLOCKOSX] [INFO] Response code received after fetching configuration :200
+2023-01-17 16:19:24.060-0800 [BROWSERLOCKOSX] [INFO] Browserlock configuration is successfully fetched from SDS
+2023-01-17 16:19:24.071-0800 [BROWSERLOCKOSX] [INFO] Stop BrowserLock on IBT security violation: stopOnIbtSecurityViolation=true
+2023-01-17 16:19:24.071-0800 [BROWSERLOCKOSX] [INFO] SDS Public key pinning configuration value is: sdsPkpConfig=true
+2023-01-17 16:19:24.071-0800 [BROWSERLOCKOSX] [INFO] Driver Public key pinning configuration value is: driverPkpConfig=true
+2023-01-17 16:19:24.098-0800 [BROWSERLOCKOSX] [INFO] BrowserLock startup: application=BrowserLockOSX, commandLine="[-LS, HTTPS://SECUREDELIVERY-HS-PRD-1.PEARSONVUE.COM/SECUREDELIVERYSERVICE, -F, FILE PATH NOT LOGGED, -R, 440006168, -L, -U, HTTPS://CANDIDATELAUNCHST.ONVUE.COM/DELIVERY?SESSION_ID=23443019&ACCESS_CODE=648124947&LOCALE=EN-US&TOKEN=UNDEFINED, -C, COMPTIA]", url="https://candidatelaunchst.onvue.com/delivery?session_id=23443019&access_code=648124947&locale=en-US&token=undefined", loggingUrl="https://securedelivery-hs-prd-1.pearsonvue.com/SecureDeliveryService", clientCode="COMPTIA", deliveryMode="op", validArgs=true
+2023-01-17 16:19:24.137-0800 [BROWSERLOCKOSX] [INFO] Shutdown file monitor started
+2023-01-17 16:19:24.139-0800 [BROWSERLOCKOSX] [INFO] VM configuration received from SDS will be applied for validation
+2023-01-17 16:19:24.139-0800 [BROWSERLOCKOSX] [INFO] VM detection value is: vmDetectConfig=true
+2023-01-17 16:19:24.139-0800 [BROWSERLOCKOSX] [INFO] Multiple monitor configuration received from SDS will be applied for validation
+2023-01-17 16:19:24.139-0800 [BROWSERLOCKOSX] [INFO] Multiple monitor detection value is: multipleMonitorDetectConfig=true
+2023-01-17 16:19:24.139-0800 [BROWSERLOCKOSX] [INFO] Minimum browserlock version required: 2201 
+2023-01-17 16:19:24.139-0800 [BROWSERLOCKOSX] [INFO] Current browserlock version: 2211.1.1 
+2023-01-17 16:19:24.235-0800 [BROWSERLOCKOSX] [INFO] Main screen name: null
+2023-01-17 16:19:24.235-0800 [BROWSERLOCKOSX] [INFO] Number of display devices connected: AWT=1, Physical/Virtual=1
+2023-01-17 16:19:24.716-0800 [BROWSERLOCKOSX] [INFO] Number of certificates extracted : 1 
+2023-01-17 16:19:24.721-0800 [BROWSERLOCKOSX] [INFO] SDS Current Public Keys Match for URL: https://securedelivery-hs-prd-1.pearsonvue.com/SecureDeliveryService/pal/bl/mac?client=COMPTIA&deliveryMode=op&application=BROWSERLOCKOSX 
+2023-01-17 16:19:25.335-0800 [BROWSERLOCKOSX] [INFO] Response Code :200
+2023-01-17 16:19:25.336-0800 [BROWSERLOCKOSX] [INFO] Forensic pal is successfully fetched from SDS
+2023-01-17 16:19:25.336-0800 [BROWSERLOCKOSX] [INFO] Time taken to retrieve the PAL from SDS: palFetchingTime=1091 ms
+2023-01-17 16:19:25.521-0800 [BROWSERLOCKOSX] [INFO] Starting Event Listener
+2023-01-17 16:19:25.538-0800 [BROWSERLOCKOSX] [INFO] Fetch all the processes running on the macOS system
+2023-01-17 16:19:25.627-0800 [BROWSERLOCKOSX] [INFO] Suspend the processes when browserlock is running
+2023-01-17 16:19:25.628-0800 [BROWSERLOCKOSX] [INFO] Pausing processes: osduihelper, sirincservice, docker desktop, adobe desktop service, spotlight, textinputswitcher, creative cloud, mackeeperagent, finder, control center, notification center, windowmanager, 
+2023-01-17 16:19:25.629-0800 [BROWSERLOCKOSX] [INFO] Hide dock
+2023-01-17 16:19:25.644-0800 [BROWSERLOCKOSX] [INFO] Starting input handler
+2023-01-17 16:19:25.646-0800 [BROWSERLOCKOSX] [INFO] Did we load the core graphics bundle? 1
+2023-01-17 16:19:25.655-0800 [BROWSERLOCKOSX] [INFO] Setting 152 HotKeys to enabled-status: 0
+2023-01-17 16:19:25.995-0800 [BROWSERLOCKOSX] [INFO] Notification center disabled
+2023-01-17 16:19:25.995-0800 [BROWSERLOCKOSX] [INFO] Requested screen count from system: maxDisplays=1
+2023-01-17 16:19:25.996-0800 [BROWSERLOCKOSX] [INFO] Showing main display: mainDisplayId=1
+2023-01-17 16:19:26.054-0800 [BROWSERLOCKOSX] [INFO] Suspend the processes when browserlock is running
+2023-01-17 16:19:26.054-0800 [BROWSERLOCKOSX] [INFO] Pausing processes: dock, 
+2023-01-17 16:19:26.059-0800 [BROWSERLOCKOSX] [INFO] Displaying Browser Loading dialog
+2023-01-17 16:19:26.405-0800 [BROWSERLOCKOSX] [INFO] Loading view dialog is displayed successfully
+2023-01-17 16:19:26.454-0800 [BROWSERLOCKOSX] [INFO] MachineGuid=6d39fb34-35ad-5704-b421-c0a612414ba2
+2023-01-17 16:19:26.459-0800 [BROWSERLOCKOSX] [INFO] Starting the SRE application
+2023-01-17 16:19:26.459-0800 [BROWSERLOCKOSX] [INFO] SRE launcher object: ay@235fb6af
+2023-01-17 16:19:36.052-0800 [BROWSERLOCKOSX] [INFO] Suspend the processes when browserlock is running
+2023-01-17 16:19:36.053-0800 [BROWSERLOCKOSX] [INFO] Pausing processes: notification center, 
+2023-01-17 16:19:36.054-0800 [BROWSERLOCKOSX] [INFO] Main screen name: null
+2023-01-17 16:19:46.048-0800 [BROWSERLOCKOSX] [INFO] Main screen name: null
+2023-01-17 16:19:56.054-0800 [BROWSERLOCKOSX] [INFO] Main screen name: null
+2023-01-17 16:20:06.049-0800 [BROWSERLOCKOSX] [INFO] Main screen name: null
+2023-01-17 16:20:16.050-0800 [BROWSERLOCKOSX] [INFO] Main screen name: null
+2023-01-17 16:20:24.134-0800 [BROWSERLOCKOSX] [INFO] System information: name=macOS, version=13.1, arch=x86_64
+2023-01-17 16:20:24.136-0800 [BROWSERLOCKOSX] [INFO] Stats (memory in kB): processors=10, totalMemory=315392.0, freeMemory=199255.5546875, memoryUsage=116136.0
+2023-01-17 16:20:24.180-0800 [BROWSERLOCKOSX] [INFO] Browserlock CPU use: process="com.apple.Virtualization.VirtualMachine", cpuPercent=31.1
+2023-01-17 16:20:24.181-0800 [BROWSERLOCKOSX] [INFO] Browserlock CPU use: process="WindowServer", cpuPercent=21.0
+2023-01-17 16:20:24.181-0800 [BROWSERLOCKOSX] [INFO] Browserlock CPU use: process="OnVUE Helper (Renderer)", cpuPercent=5.1
+2023-01-17 16:20:24.181-0800 [BROWSERLOCKOSX] [INFO] Browserlock CPU use: process="Pearson VUE Browser Lock", cpuPercent=4.4
+2023-01-17 16:20:24.181-0800 [BROWSERLOCKOSX] [INFO] Browserlock CPU use: process="ContainerMetadataExtractor", cpuPercent=3.7
+2023-01-17 16:20:24.181-0800 [BROWSERLOCKOSX] [INFO] Browserlock CPU use: process="tccd", cpuPercent=1.7
+2023-01-17 16:20:24.182-0800 [BROWSERLOCKOSX] [INFO] Browserlock CPU use: process="tccd", cpuPercent=1.7
+2023-01-17 16:20:24.182-0800 [BROWSERLOCKOSX] [INFO] Browserlock CPU use: process="bird", cpuPercent=1.2
+2023-01-17 16:20:24.182-0800 [BROWSERLOCKOSX] [INFO] Browserlock CPU use: process="Chromium Helper (GPU)", cpuPercent=0.7
+2023-01-17 16:20:24.182-0800 [BROWSERLOCKOSX] [INFO] Browserlock CPU use: process="Docker Desktop Helper (GPU)", cpuPercent=0.6
+2023-01-17 16:20:24.182-0800 [BROWSERLOCKOSX] [INFO] Browserlock CPU use: process="logd", cpuPercent=0.3
+2023-01-17 16:20:24.182-0800 [BROWSERLOCKOSX] [INFO] Browserlock CPU use: process="com.docker.backend", cpuPercent=0.3
+2023-01-17 16:20:24.182-0800 [BROWSERLOCKOSX] [INFO] Browserlock CPU use: process="Creative Cloud UI Helper (GPU)", cpuPercent=0.3
+2023-01-17 16:20:24.182-0800 [BROWSERLOCKOSX] [INFO] Browserlock CPU use: process="configd", cpuPercent=0.3
+2023-01-17 16:20:26.047-0800 [BROWSERLOCKOSX] [INFO] Main screen name: null
+2023-01-17 16:20:36.060-0800 [BROWSERLOCKOSX] [INFO] Main screen name: null
+2023-01-17 16:20:46.043-0800 [BROWSERLOCKOSX] [INFO] Main screen name: null
+2023-01-17 16:20:56.049-0800 [BROWSERLOCKOSX] [INFO] Main screen name: null
+2023-01-17 16:21:06.049-0800 [BROWSERLOCKOSX] [INFO] Main screen name: null
+2023-01-17 16:21:16.054-0800 [BROWSERLOCKOSX] [INFO] Main screen name: null
+2023-01-17 16:21:26.047-0800 [BROWSERLOCKOSX] [INFO] Main screen name: null
+2023-01-17 16:21:36.119-0800 [BROWSERLOCKOSX] [INFO] Main screen name: null
+2023-01-17 16:21:46.136-0800 [BROWSERLOCKOSX] [INFO] Main screen name: null
+2023-01-17 16:21:56.188-0800 [BROWSERLOCKOSX] [INFO] Main screen name: null
+2023-01-17 16:22:06.140-0800 [BROWSERLOCKOSX] [INFO] Main screen name: null
+2023-01-17 16:22:16.099-0800 [BROWSERLOCKOSX] [INFO] Main screen name: null
+2023-01-17 16:22:26.113-0800 [BROWSERLOCKOSX] [INFO] Main screen name: null
+2023-01-17 16:22:36.165-0800 [BROWSERLOCKOSX] [INFO] Main screen name: null
+2023-01-17 16:22:46.131-0800 [BROWSERLOCKOSX] [INFO] Main screen name: null
+2023-01-17 16:22:56.148-0800 [BROWSERLOCKOSX] [INFO] Main screen name: null
+2023-01-17 16:24:02.961-0800 [BROWSERLOCKOSX] [INFO] Main screen name: null
+2023-01-17 16:24:12.972-0800 [BROWSERLOCKOSX] [INFO] Main screen name: null
+2023-01-17 16:24:23.023-0800 [BROWSERLOCKOSX] [INFO] Main screen name: null
+2023-01-17 16:25:23.637-0800 [BROWSERLOCKOSX] [INFO] Main screen name: null
+2023-01-17 16:25:33.734-0800 [BROWSERLOCKOSX] [INFO] Main screen name: null
+2023-01-17 16:25:43.734-0800 [BROWSERLOCKOSX] [INFO] Main screen name: null
+2023-01-17 16:25:53.731-0800 [BROWSERLOCKOSX] [INFO] Main screen name: null
+2023-01-17 16:32:26.351-0800 [BROWSERLOCKOSX] [INFO] Main screen name: null
+2023-01-17 16:32:36.325-0800 [BROWSERLOCKOSX] [INFO] Main screen name: null
+2023-01-17 16:32:46.257-0800 [BROWSERLOCKOSX] [INFO] Main screen name: null
+2023-01-17 16:32:56.315-0800 [BROWSERLOCKOSX] [INFO] Main screen name: null
+2023-01-17 16:32:56.385-0800 [BROWSERLOCKOSX] [ERROR] HTTP call failed for url: https://securedelivery-hs-prd-1.pearsonvue.com/SecureDeliveryService/log
+java.net.SocketTimeoutException: Read timed out
+	at java.base/java.net.SocketInputStream.socketRead0(Native Method)
+	at java.base/java.net.SocketInputStream.socketRead(Unknown Source)
+	at java.base/java.net.SocketInputStream.read(Unknown Source)
+	at java.base/java.net.SocketInputStream.read(Unknown Source)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.read(Unknown Source)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.readHeader(Unknown Source)
+	at java.base/sun.security.ssl.SSLSocketInputRecord.bytesInCompletePacket(Unknown Source)
+	at java.base/sun.security.ssl.SSLSocketImpl.readApplicationRecord(Unknown Source)
+	at java.base/sun.security.ssl.SSLSocketImpl$AppInputStream.read(Unknown Source)
+	at org.apache.http.impl.io.SessionInputBufferImpl.streamRead(SessionInputBufferImpl.java:137)
+	at org.apache.http.impl.io.SessionInputBufferImpl.fillBuffer(SessionInputBufferImpl.java:153)
+	at org.apache.http.impl.io.SessionInputBufferImpl.readLine(SessionInputBufferImpl.java:280)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:138)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:56)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259)
+	at org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:163)
+	at org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:157)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:272)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
+	at j.a(RestTemplate.java:233)
+	at j.a(RestTemplate.java:208)
+	at u.run(HttpAppender.java:239)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2023-01-17 16:33:06.324-0800 [BROWSERLOCKOSX] [INFO] Main screen name: null

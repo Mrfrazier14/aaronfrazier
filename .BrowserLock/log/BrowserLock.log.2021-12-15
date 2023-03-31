@@ -1,0 +1,176 @@
+2021-12-15 00:00:20.032-0800 [BROWSERLOCKOSX] [INFO] Browserlock is running in background with reporting mode
+2021-12-15 00:00:20.084-0800 [BROWSERLOCKOSX] [INFO] BrowserLock startup: application=BrowserLockOSX, commandLine="[-F, FILE PATH NOT LOGGED, -BR]", url="https://home.pearsonvue.com/", loggingUrl="https://securedelivery-hs-st0-1.pearsonvue.com/SecureDeliveryService", clientCode="null", deliveryMode="op", validArgs=true
+2021-12-15 00:00:20.459-0800 [BROWSERLOCKOSX] [ERROR] HTTP call failed for url: https://securedelivery-hs-st0-1.pearsonvue.com/SecureDeliveryService/config?application=BROWSERLOCKOSX
+java.net.UnknownHostException: securedelivery-hs-st0-1.pearsonvue.com: nodename nor servname provided, or not known
+	at java.base/java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.base/java.net.InetAddress$PlatformNameService.lookupAllHostAddr(Unknown Source)
+	at java.base/java.net.InetAddress.getAddressesFromNameService(Unknown Source)
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(Unknown Source)
+	at java.base/java.net.InetAddress.getAllByName0(Unknown Source)
+	at java.base/java.net.InetAddress.getAllByName(Unknown Source)
+	at java.base/java.net.InetAddress.getAllByName(Unknown Source)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
+	at i.a(RestTemplate.java:192)
+	at i.a(RestTemplate.java:117)
+	at n.a(ConfigurationService.java:51)
+	at com.vue.browserlock.osx.OSXBrowserLockApplication.start(OSXBrowserLockApplication.java:182)
+	at javafx.graphics/com.sun.javafx.application.LauncherImpl.lambda$launchApplication1$9(Unknown Source)
+	at javafx.graphics/com.sun.javafx.application.PlatformImpl.lambda$runAndWait$12(Unknown Source)
+	at javafx.graphics/com.sun.javafx.application.PlatformImpl.lambda$runLater$10(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at javafx.graphics/com.sun.javafx.application.PlatformImpl.lambda$runLater$11(Unknown Source)
+	at javafx.graphics/com.sun.glass.ui.InvokeLaterDispatcher$Future.run(Unknown Source)
+2021-12-15 00:00:20.459-0800 [BROWSERLOCKOSX] [ERROR] HTTP call failed for url: https://securedelivery-hs-st0-1.pearsonvue.com/SecureDeliveryService/log
+java.net.UnknownHostException: securedelivery-hs-st0-1.pearsonvue.com
+	at java.base/java.net.InetAddress$CachedAddresses.get(Unknown Source)
+	at java.base/java.net.InetAddress$NameServiceAddresses.get(Unknown Source)
+	at java.base/java.net.InetAddress.getAllByName0(Unknown Source)
+	at java.base/java.net.InetAddress.getAllByName(Unknown Source)
+	at java.base/java.net.InetAddress.getAllByName(Unknown Source)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
+	at i.a(RestTemplate.java:192)
+	at i.a(RestTemplate.java:171)
+	at s.run(HttpAppender.java:239)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2021-12-15 00:00:20.464-0800 [BROWSERLOCKOSX] [INFO] Response code received after fetching configuration :503
+2021-12-15 00:00:20.464-0800 [BROWSERLOCKOSX] [ERROR] SDS service to fetch browserlock config is unavailable
+2021-12-15 00:00:20.464-0800 [BROWSERLOCKOSX] [INFO] Configuration object from SDS: null
+2021-12-15 00:00:20.464-0800 [BROWSERLOCKOSX] [INFO] Minimum browserlock version required: 0 
+2021-12-15 00:00:20.464-0800 [BROWSERLOCKOSX] [INFO] Current browserlock version: 2111.1.1 
+2021-12-15 00:00:20.471-0800 [BROWSERLOCKOSX] [ERROR] HTTP call failed for url: https://securedelivery-hs-st0-1.pearsonvue.com/SecureDeliveryService/log
+java.net.UnknownHostException: securedelivery-hs-st0-1.pearsonvue.com
+	at java.base/java.net.InetAddress$CachedAddresses.get(Unknown Source)
+	at java.base/java.net.InetAddress.getAllByName0(Unknown Source)
+	at java.base/java.net.InetAddress.getAllByName(Unknown Source)
+	at java.base/java.net.InetAddress.getAllByName(Unknown Source)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
+	at i.a(RestTemplate.java:192)
+	at i.a(RestTemplate.java:171)
+	at s.run(HttpAppender.java:239)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.base/java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2021-12-15 00:00:20.788-0800 [BROWSERLOCKOSX] [INFO] Get the display count
+2021-12-15 00:00:20.788-0800 [BROWSERLOCKOSX] [INFO] Show the number of display count: displayCount=1
+2021-12-15 00:00:20.788-0800 [BROWSERLOCKOSX] [INFO] Number of display devices connected: AWT=1, Physical/Virtual=1
+2021-12-15 00:00:20.808-0800 [BROWSERLOCKOSX] [ERROR] HTTP call failed for url: https://securedelivery-hs-st0-1.pearsonvue.com/SecureDeliveryService/pal/bl/mac?client=null&deliveryMode=op&application=BROWSERLOCKOSX
+java.net.UnknownHostException: securedelivery-hs-st0-1.pearsonvue.com
+	at java.base/java.net.InetAddress$CachedAddresses.get(Unknown Source)
+	at java.base/java.net.InetAddress.getAllByName0(Unknown Source)
+	at java.base/java.net.InetAddress.getAllByName(Unknown Source)
+	at java.base/java.net.InetAddress.getAllByName(Unknown Source)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:112)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:376)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:393)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:108)
+	at i.a(RestTemplate.java:192)
+	at i.a(RestTemplate.java:117)
+	at o.a(ProcessActionListService.java:44)
+	at B.a(ProcessActionListReader.java:1202)
+	at ab.a(ProcessHandler.java:65)
+	at com.vue.browserlock.osx.a.c(OSXBrowserLock.java:192)
+	at com.vue.browserlock.osx.OSXBrowserLockApplication.b(OSXBrowserLockApplication.java:345)
+	at com.vue.browserlock.osx.OSXBrowserLockApplication.a(OSXBrowserLockApplication.java:321)
+	at com.vue.browserlock.osx.OSXBrowserLockApplication.start(OSXBrowserLockApplication.java:269)
+	at javafx.graphics/com.sun.javafx.application.LauncherImpl.lambda$launchApplication1$9(Unknown Source)
+	at javafx.graphics/com.sun.javafx.application.PlatformImpl.lambda$runAndWait$12(Unknown Source)
+	at javafx.graphics/com.sun.javafx.application.PlatformImpl.lambda$runLater$10(Unknown Source)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at javafx.graphics/com.sun.javafx.application.PlatformImpl.lambda$runLater$11(Unknown Source)
+	at javafx.graphics/com.sun.glass.ui.InvokeLaterDispatcher$Future.run(Unknown Source)
+2021-12-15 00:00:20.809-0800 [BROWSERLOCKOSX] [INFO] Response Code :503
+2021-12-15 00:00:20.809-0800 [BROWSERLOCKOSX] [ERROR] SDS service to fetch forensic pal is unavailable
+2021-12-15 00:00:20.831-0800 [BROWSERLOCKOSX] [INFO] Parsing the single json pal and retrieving client specific pal
+2021-12-15 00:00:21.035-0800 [BROWSERLOCKOSX] [INFO] Processes present in exit file {"processes":[{"processName":"google chrome"},{"processName":"dictation"}]}
+2021-12-15 00:00:21.041-0800 [BROWSERLOCKOSX] [INFO] Closing Browser Loading dialog
+2021-12-15 00:00:21.048-0800 [BROWSERLOCKOSX] [INFO] Stoppinging Event Listener
+2021-12-15 00:00:21.124-0800 [BROWSERLOCKOSX] [INFO] BrowserLock exit: exitCode=13 
+2021-12-15 00:00:31.948-0800 [BROWSERLOCKOSX] [INFO] BrowserLock Client code=COMPTIA 
+2021-12-15 00:00:31.982-0800 [BROWSERLOCKOSX] [INFO] BrowserLock startup: application=BrowserLockOSX, commandLine="[-L, -U, HTTPS://CANDIDATELAUNCHST.ONVUE.COM/DELIVERY?SESSION_ID=11976033&ACCESS_CODE=674980725&LOCALE=EN-US&TOKEN=EYJHBGCIOIJIUZI1NIISIMTPZCI6INZIOW5LSJB6ZVKYEXU3N1V3ELPOB2W3YXHWTTCWOXR2EGQWEFZ1TW5HB0UIFQ.EYJPC3MIOIJPBLZVRSISIMLHDCI6MTYZOTU1NTE1MYWIANRPIJOIYMRLMJG3ZGUTYWNJOS00NWY1LTLIYTUTNWZHNWU1MWQ5MMUXIIWIC3VIIJO2NZQ5ODA3MJUSIM1PZCI6IJZKMZLMYJM0LTM1YWQTNTCWNC1INDIXLWMWYTYXMJQXNGJHMIISIMV4CCI6MTYZOTU2MJM1MYWIB3BTZXNZAW9UIJP7IMFPT3B0T3V0IJP0CNVLFX0.PZSPNECTG1LGQWHNC6ECOSSJK4DBCQ-KTZ4SBWJL9SG, -F, FILE PATH NOT LOGGED, -LS, HTTPS://SECUREDELIVERY-HS-PRD-1.PEARSONVUE.COM/SECUREDELIVERYSERVICE, -C, COMPTIA]", url="https://candidatelaunchst.onvue.com/delivery?session_id=11976033&access_code=674980725&locale=en-US&token=eyJhbGciOiJIUzI1NiIsImtpZCI6InZiOW5lSjB6ZVkyeXU3N1V3elpOb2w3YXhwTTcwOXR2eGQweFZ1TW5Hb0UifQ.eyJpc3MiOiJPblZVRSIsImlhdCI6MTYzOTU1NTE1MywianRpIjoiYmRlMjg3ZGUtYWNjOS00NWY1LTliYTUtNWZhNWU1MWQ5MmUxIiwic3ViIjo2NzQ5ODA3MjUsIm1pZCI6IjZkMzlmYjM0LTM1YWQtNTcwNC1iNDIxLWMwYTYxMjQxNGJhMiIsImV4cCI6MTYzOTU2MjM1Mywib3BTZXNzaW9uIjp7ImFpT3B0T3V0Ijp0cnVlfX0.pZsPNEcTg1lGqWhnc6eCOSSjk4dBcQ-KTz4sBWJL9sg", loggingUrl="https://securedelivery-hs-prd-1.pearsonvue.com/SecureDeliveryService", clientCode="COMPTIA", deliveryMode="op", validArgs=true
+2021-12-15 00:00:33.265-0800 [BROWSERLOCKOSX] [INFO] Response code received after fetching configuration :200
+2021-12-15 00:00:33.266-0800 [BROWSERLOCKOSX] [INFO] Browserlock configuration is successfully fetched from SDS
+2021-12-15 00:00:33.268-0800 [BROWSERLOCKOSX] [INFO] Configuration object from SDS: {"enableVMDetect":true,"minimumVersion":"2102","enablePublicKeyPinning":false,"blockScreenCapture":true}
+2021-12-15 00:00:33.282-0800 [BROWSERLOCKOSX] [INFO] Minimum version in Browserlock configuration from SDS is : 2102
+2021-12-15 00:00:33.282-0800 [BROWSERLOCKOSX] [INFO] Minimum browserlock version required: 2102 
+2021-12-15 00:00:33.282-0800 [BROWSERLOCKOSX] [INFO] Current browserlock version: 2111.1.1 
+2021-12-15 00:00:33.406-0800 [BROWSERLOCKOSX] [INFO] Get the display count
+2021-12-15 00:00:33.407-0800 [BROWSERLOCKOSX] [INFO] Show the number of display count: displayCount=1
+2021-12-15 00:00:33.408-0800 [BROWSERLOCKOSX] [INFO] Number of display devices connected: AWT=1, Physical/Virtual=1
+2021-12-15 00:00:34.151-0800 [BROWSERLOCKOSX] [INFO] Response Code :200
+2021-12-15 00:00:34.152-0800 [BROWSERLOCKOSX] [INFO] Forensic pal is successfully fetched from SDS
+2021-12-15 00:00:34.230-0800 [BROWSERLOCKOSX] [INFO] Starting Event Listener
+2021-12-15 00:00:34.363-0800 [BROWSERLOCKOSX] [INFO] Pausing processes: accessibilityvisualsagent, finder, sirincservice, webex, mackeeperagent, spotlight, control center, notification center, calendaragent, 
+2021-12-15 00:00:34.399-0800 [BROWSERLOCKOSX] [INFO] Executing termination step: processTerminator=ae
+2021-12-15 00:00:34.411-0800 [BROWSERLOCKOSX] [INFO] Terminate processes found: processes="[google chrome, dictation]"
+2021-12-15 00:00:34.685-0800 [BROWSERLOCKOSX] [INFO] Processes added in termination dialog during browserlock pre-check are: [google chrome, dictation]
+2021-12-15 00:00:35.342-0800 [BROWSERLOCKOSX] [INFO] Displaying Browser Loading dialog
+2021-12-15 00:00:35.378-0800 [BROWSERLOCKOSX] [INFO] Loading view dialog is displayed successfully
+2021-12-15 00:00:38.712-0800 [BROWSERLOCKOSX] [INFO] Killing processes: google chrome, 
+2021-12-15 00:00:39.770-0800 [BROWSERLOCKOSX] [INFO] Executing termination step: processTerminator=ai
+2021-12-15 00:00:39.770-0800 [BROWSERLOCKOSX] [INFO] Terminate processes found: processes="[dictation]"
+2021-12-15 00:00:39.770-0800 [BROWSERLOCKOSX] [INFO] Processes added in termination dialog during browserlock pre-check are: [dictation]
+2021-12-15 00:00:41.982-0800 [BROWSERLOCKOSX] [INFO] Get the display count
+2021-12-15 00:00:41.983-0800 [BROWSERLOCKOSX] [INFO] Show the number of display count: displayCount=1
+2021-12-15 00:00:51.981-0800 [BROWSERLOCKOSX] [INFO] Get the display count
+2021-12-15 00:00:51.985-0800 [BROWSERLOCKOSX] [INFO] Show the number of display count: displayCount=1
+2021-12-15 00:00:52.254-0800 [BROWSERLOCKOSX] [INFO] Terminate processes found: processes="[dictation]"
+2021-12-15 00:00:52.260-0800 [BROWSERLOCKOSX] [INFO] Processes added in termination dialog during browserlock pre-check are: [dictation]
+2021-12-15 00:01:01.987-0800 [BROWSERLOCKOSX] [INFO] Get the display count
+2021-12-15 00:01:01.989-0800 [BROWSERLOCKOSX] [INFO] Show the number of display count: displayCount=1
+2021-12-15 00:01:06.736-0800 [BROWSERLOCKOSX] [INFO] Terminate processes found: processes="[dictation]"
+2021-12-15 00:01:06.738-0800 [BROWSERLOCKOSX] [INFO] Processes added in termination dialog during browserlock pre-check are: [dictation]
+2021-12-15 00:01:11.941-0800 [BROWSERLOCKOSX] [INFO] toTerminateProcesses: size=1
+2021-12-15 00:01:11.950-0800 [BROWSERLOCKOSX] [INFO] User chose to exit instead of terminating processes
+2021-12-15 00:01:11.950-0800 [BROWSERLOCKOSX] [INFO] Report processes/apps to SDS on stop of BrowserLock
+2021-12-15 00:01:11.960-0800 [BROWSERLOCKOSX] [INFO] Cannot report processes/apps to SDS. No processes to send or Registration Id is empty
+2021-12-15 00:01:11.961-0800 [BROWSERLOCKOSX] [INFO] Processes present in exit file {"processes":[{"processName":"dictation"}]}
+2021-12-15 00:01:11.967-0800 [BROWSERLOCKOSX] [INFO] Closing Browser Loading dialog
+2021-12-15 00:01:11.976-0800 [BROWSERLOCKOSX] [INFO] Loading view dialog is closed successfully
+2021-12-15 00:01:11.978-0800 [BROWSERLOCKOSX] [INFO] Resuming processes: calendaragent, webex, sirincservice, finder, spotlight, notification center, accessibilityvisualsagent, mackeeperagent, control center, 
+2021-12-15 00:01:11.978-0800 [BROWSERLOCKOSX] [INFO] Stoppinging Event Listener
+2021-12-15 00:01:11.995-0800 [BROWSERLOCKOSX] [INFO] BrowserLock exit: exitCode=5 
