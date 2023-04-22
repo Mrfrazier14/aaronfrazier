@@ -1,23 +1,17 @@
-// See https://aka.ms/new-console-template for more information
-using Humanizer;
+﻿Console.WriteLine("Hello World!");
 
-Console.WriteLine("Quantities:");
-HumanizeQuantities();
+static int Fibonacci(int n) 
 
-Console.WriteLine("\nDate/Time Manipulation:");
-HumanizeDates();
+    int n1 = 0;
+    int n2 = 1;
+    int sum;
 
-static void HumanizeQuantities()
-{
-    Console.WriteLine("case".ToQuantity(0));
-    Console.WriteLine("case".ToQuantity(1));
-    Console.WriteLine("case".ToQuantity(5));
-}
+    for (int i = 2; i < n; i++)
+    {
+        sum = n1 + n2;
+        n1 = n2;
+        n2 = sum;
+    }
 
-static void HumanizeDates()
-{
-    Console.WriteLine(DateTime.UtcNow.AddHours(-24).Humanize());
-    Console.WriteLine(DateTime.UtcNow.AddHours(-2).Humanize());
-    Console.WriteLine(TimeSpan.FromDays(1).Humanize());
-    Console.WriteLine(TimeSpan.FromDays(16).Humanize());
+    return n == 0 ? n1 : n2;
 }
